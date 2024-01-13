@@ -56,9 +56,6 @@ RUN /tmp/install-system-deps.sh
 COPY dockerfiles/splash/install-fonts.sh /tmp/install-fonts.sh
 RUN /tmp/install-fonts.sh
 
-COPY dockerfiles/splash/install-flash.sh /tmp/install-flash.sh
-RUN /tmp/install-flash.sh
-
 COPY dockerfiles/splash/install-qtwebengine-deps.sh /tmp/install-qtwebengine-deps.sh
 RUN /tmp/install-qtwebengine-deps.sh
 
